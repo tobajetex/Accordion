@@ -1,0 +1,50 @@
+*{
+box-sizing: border-box;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+.accordion{
+    border-radius: 10px;
+    max-width: 800px;
+}
+.accordion--icon{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.accordion--item{
+    border-bottom: 1px solid red;
+    margin-left: 30px;
+    
+}
+.accordion--title{
+    flex:1;
+}
+
+.accordion--note{
+    display: none;
+    margin-bottom: 1rem;
+}
+#open{
+    display: none;
+}
+#title{
+    text-align: center;
+}
+.fa-solid{
+    margin-right: 20px;
+}
+hr{
+    width: 500px;
+    color:red
+}
+.main{
+    border:1px solid red;
+    border-bottom:transparent;
+    width:900px;
+    margin:3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
